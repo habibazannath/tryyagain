@@ -1,0 +1,176 @@
+/***------------**Extra small device(portrait phones, less than 576px)**---****/
+
+@media (max-width: 575.98px){
+	/*menu and slider start*/
+.c-class {
+    margin-top: 80px;
+    padding: 0px;
+}
+.c-class h1 {
+    margin: 20px 0;
+    font-size: 19px;
+}
+.c-class h5 {
+    letter-spacing: 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    word-spacing: 0px;
+}
+.c-btn button {
+    margin-bottom: -27px;
+}
+/*menu and slider end*/
+/*latest product section start*/
+/*.latest-title h3 {
+    font-size: 20px;
+}*/
+.box12 .title {
+    font-size: 29px;
+    }
+
+
+/*latest product section end*/
+}
+
+/***---------------------------**Small device(landscape phones, 576px and up)****------------**/
+
+@media (min-width: 576px) and (max-width: 767.98px){
+/*menu and slider start*/
+.c-class {
+    margin-top: 80px;
+    padding: 0px;
+}
+.c-class h1 {
+    margin: 30px 0;
+    font-size: 30px;
+}
+.c-class h5 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    word-spacing: 0px;
+}
+.c-btn button {
+    margin-bottom: -27px;
+}
+/*menu and slider end*/
+/*latest product section start*/
+/*.latest-title h3 {
+    font-size: 20px;
+}*/
+.box12 .title {
+    font-size: 18px;
+    }
+
+.box14 .title {
+    margin: 85px 0;
+}
+/*latest product section end*/
+	
+
+}
+
+/***----------------------------**Medium device(Tablets, 768px and up)****------------**/
+
+@media (min-width: 768px) and (max-width: 991.98px){
+/*menu and slider start*/
+.c-class {
+    margin-top: 80px;
+    padding: 0px;
+}
+.c-class h1 {
+    margin: 30px 0;
+    font-size: 30px;
+}
+.c-class h5 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-transform: uppercase;
+    word-spacing: 0px;
+}
+.c-btn button {
+    margin-bottom: -27px;
+}
+/*menu and slider end*/
+/*latest product section start*/
+.latest-title h3 {
+    font-size: 32px;
+}
+.box12 .title {
+    font-size: 27px;
+    }
+
+.box14 .title {
+    margin: 85px 0;
+}
+/*latest product section end*/
+}
+
+/***----------------------------**Large device(Large Leptop and dekstop, 992px and up)****------------**/
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+/*menu and slider start*/
+.c-class h1 {
+	margin: 40px 0;
+    font-size: 45px;
+    
+}
+.c-class h5 {
+    letter-spacing: 2px;
+    font-size: 23px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+.custom-nav a {
+    margin-right: 22px;
+}
+/*menu and slider end*/
+/*latest product section start*/
+/*.latest-title h3 {
+    font-size: 38px;
+}*/
+.box12 .title {
+    font-size: 36px;
+    }
+
+.box14 .title {
+    margin: 115px 0;
+}
+/*latest product section end*/
+}
+/***----------------------------**Extra Large device(Extra large Leptop and dekstop, 1200px and up)****------------**/
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+	
+
+}
+
+/***--------------------**Extra extra Large device(Extra extra large Leptop and dekstop, 1400px and up)****--------**/
+
+@media (min-width: 1400px) and (max-width: 1699.98px){
+
+}
+@media (min-width: 1700px) and (max-width: 1899.98px){
+
+	
+
+}
+@media (min-width: 1900px){
+/*menu and slider start*/
+.c-class h1{
+	margin: 45px 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 60px;
+	font-weight: 900px;
+	text-transform: uppercase;
+
+}
+.c-class h5 {
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-transform: uppercase;
+    word-spacing: 7px;
+}
+/*menu and slider end*/
+}

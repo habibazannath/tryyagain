@@ -1,0 +1,218 @@
+/****************fonts-start*****************/
+@font-face{
+	src:url(../font/Lato/Lato-Black.ttf);
+	font-family:Lato-Black;
+}
+@font-face{
+	src:url(../font/Lato/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+@font-face{
+	src:url(../font/Lato/Lato-Regular.ttf);
+	font-family: Lato-Regular;
+}
+@font-face{
+	src:url(../font/Open_Sans/OpenSans-Bold.ttf);
+	font-family: OpenSans-Bold;
+}
+@font-face{
+	src:url(../font/Open_Sans/OpenSans-Italic.ttf);
+	font-family: OpenSans-Italic;
+}
+@font-face{
+	src:url(../font/Open_Sans/OpenSans-Light.ttf);
+	font-family:OpenSans-Light;
+}
+@font-face{
+	src:url(../font/Open_Sans/OpenSans-LightItalic.ttf);
+	font-family:OpenSans-LightItalic;
+}
+/******************fonts-end***********************/
+/******************common start***********************/
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300px;
+	color: #ffffff;
+}
+/******************common-end***********************/
+/*menu and slider start*/
+.bag-img{
+	width: 100%;
+	background-image: url(../img/bag-img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*menu start*/
+.custom-nav a{
+	margin-right: 35px;
+	font-size: 18px;
+	font-weight: 300px !important;
+	color: #ffffff !important;
+}
+.custom-nav a:hover{
+	color: #CD2B2D !important;
+}
+.custom-nav a:last-child{
+	margin-right: 0px;
+}
+/*menu end*/
+/*slider start*/
+.c-class{
+	margin-top: 235px;
+	padding: 0px;
+}
+.c-class h5 {
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+.c-class h1{
+	margin: 45px 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	font-weight: 900px;
+	text-transform: uppercase;
+
+}
+.c-btn{
+	margin-top: 50px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+.c-btn button{
+	margin-top: 45px;
+	text-transform: uppercase;
+	background:transparent;
+	border:2px solid #ffffff;
+	width: 200px;
+	height: 60px;
+}
+.c-btn button:hover{
+	border:none;
+	background:#CD2B2D;
+	transition: 1s; 
+}
+.c-btn button:focus {
+    box-shadow:none;
+}
+.custom-c-ind [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.custom-c-ind{
+	margin-bottom: 50px;
+}
+/*slider end*/
+/*menu and slider end*/
+/*latest product section start*/
+.latest-product{
+	margin-bottom: 60px;
+}
+.latest-title{
+	margin: 60px 0;
+	min-width: 50px;
+}
+.line{
+	
+}
+.line hr{
+	background: #dc0000;
+	font-weight: bold;
+	margin: 0 auto;
+	/*margin-left: 20%;*/
+	width: 150px;
+	height: 3px;
+	color: #dc0000;
+}
+.latest-title h3{
+	margin:0;
+	padding:10px 0;
+	font-family:OpenSans-LightItalic;
+	font-size: 40px;
+	font-weight:300;
+	color:#333333;
+	text-align: center;
+}
+/*********************** Demo - 12 *******************/
+.box12{position:relative}
+.box12 .box-content,.box12:after{position:absolute;transition:all .3s ease 0s}
+.box12 img{width:100%;height:auto}
+.box12 .box-content{width:100%;top:27%;left:0;opacity:0;z-index:1}
+.box12:hover .box-content{opacity:2}
+.box12 .title{text-align: center; font-family:Lato-Black;font-size: 45px; font-weight:900;padding:10px 0;color:#fff;margin:0;border-top:3px solid #fff;border-bottom:3px solid #fff}
+@media only screen and (max-width:990px){.box12{margin-bottom:20px}
+}
+/*********************** Demo - 14 *******************/
+.box14{position:relative}
+.box15,.box17,.box18{box-shadow:0 0 5px #7e7d7d;text-align:center}
+.box14:before{content:"";width:100%;height:100%;background:rgba(0,0,0,.5);position:absolute;top:0;left:0;opacity:0;transition:all .35s ease 0s}
+.box14:hover:before{opacity:1}
+.box14 img{width:100%;height:auto}
+.box14 .box-content{width:90%;height:90%;position:absolute;top:5%;left:5%}
+.box14 .box-content:after,.box14 .box-content:before{content:"";position:absolute;top:0;left:0;bottom:0;right:0;opacity:0;transition:all .7s ease 0s}
+.box14 .box-content:before{border-bottom:3px solid rgba(255,255,255,.5);border-top:3px solid rgba(255,255,255,.5);transform:scale(0,1);transform-origin:0 0 0}
+.box14 .box-content:after{border-left:3px solid rgba(255,255,255,.5);border-right:3px solid rgba(255,255,255,.5);transform:scale(1,0);transform-origin:100% 0 0}
+.box14:hover .box-content:after,.box14:hover .box-content:before{opacity:1;transform:scale(1);transition-delay:.15s}
+.box14 .title{text-align: center; font-family:OpenSans-LightItalic; font-size:40px;font-weight:300;font-style: italic; color:#fff;margin:156px 0;opacity:0;transform:translate3d(0,-50px,0);transition:transform .5s ease 0s}
+.box14:hover .title{opacity:1;transform:translate3d(0,0,0)}
+@media only screen and (max-width:990px){.box14{margin-bottom:30px}
+}
+/*latest product section end*/
+/*Trending Items section start*/
+.beg-color{
+	background:#EAEAEA;
+}
+.c-image{
+	min-height: 400px;
+}
+.content{
+	padding: 30px;
+}
+.content h1{
+	font-family:Lato-Bold;
+	font-size: 30px;
+	font-weight:700;
+	color:#dc0000;
+}
+.content h5{
+	font-family:OpenSans;
+	font-size: 18px;
+	font-weight:400;
+	color:#777777;
+	letter-spacing: 3px;
+	word-spacing: 1px;
+}
+.content p{
+	font-family:Lato-Regular;
+	font-size: 18px;
+	font-weight:400;
+	color:#777777;
+}
+.content h3{
+	font-family:Lato-Regular;
+	font-size: 18px;
+	font-weight:400;
+	color:#777777;
+}
+.tan hr{
+	margin: 15px 0 !important;
+	background: #777777 !important;
+	width: 30px;
+    height: 2px;
+    color:#777777 !important;
+}
+.alada{
+	margin: 0;
+	text-align: left;
+}
+.alada button{
+	margin: 20px 0;
+}
+.margin-right{
+	margin-right: 20px !important;
+}
+/*Trending Items section end*/
